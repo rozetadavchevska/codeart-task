@@ -1,0 +1,1190 @@
+@media only screen and (min-width: 320px) and (max-width: 600px)  {
+
+    .hero{
+        height: 300px;
+        background-image: url('/assets/hero-img.png');
+        background-size: cover;
+        background-position:60%;
+    }
+
+    .hero-img{
+        display: none;
+    }
+   
+    .hero-text{
+        width: 80%;
+    } 
+    
+    .hero-text>h1{
+        font-size: 25px;
+        line-height: 28px;
+    }
+    
+    .hero-text>h3{
+        font-size: 11px;
+    }
+    
+    .section-01-text{
+        width: 90%;
+    }
+    
+    .section-01-text>h2{
+        font-size: 18px;
+    }
+    
+    .section-01-text>p{
+        font-size: 12px;
+    }
+
+    .section-01-buy, 
+    .section-04-buy, 
+    .section-07-buy, 
+    .section-09-buy{
+        width: 90%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+    }
+
+    .purchase-card, .subscribe-card{
+        width:90%;
+    }
+
+    .guarantee{
+        align-items: center;
+    }
+
+    .guarantee-img{
+        width: 30px;
+        margin-right: 0;
+    }
+
+    .guarantee-text{
+        font-size: 14px;
+    }
+
+    .section-02{
+        height: 200px;
+    }
+    
+    .section-02-text>h2{
+        font-size:23px;
+    }
+    
+    .powerful-results{
+        font-size: 25px;
+    }
+    
+    .section-arrow{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .results-cards{
+        width: 80%;
+        justify-content: center;
+        grid-template-columns: repeat(1,minmax(200px,auto));
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 13px;
+    }
+
+    .main-result{
+        font-size: 15px;
+    }
+    
+    .buy-btn-container{
+        width:60%;
+    }
+    
+    .section-02-guarantee, .section-06-guarantee{
+        width: 80%;
+    }
+
+    .guarantee-text{
+        font-size: 13px;
+    }
+    
+    .review-cards{
+        width: 80%;
+        grid-template-columns: repeat(1,minmax(150px,auto));
+    }
+    
+    .review-text{
+        font-size: 15px;
+    }
+    
+    .section-03-text{
+        width: 80%;
+    }
+    
+    .section-03-text>h2{
+        font-size: 23px;
+    }
+    
+    .section-03-text>h4{
+        font-size: 15px;
+    }
+
+    .section-03-content{
+        width: 80%;
+    }
+    
+    .section-03-cards{
+        width:100%;
+    }
+
+    .section-03-card{
+        flex-direction: column-reverse;
+    }
+    
+    .card-03-text{
+        width:100%;
+    }
+    
+    .card-03-text>h2{
+        font-size: 20px;
+    }
+
+    .card-03-text>p, .card-03-list-el{
+        font-size: 13px;
+    }
+    
+    .card-03-img-container{
+        width: 100%;
+    }
+    
+    .section-04, .section-07{
+        height: 222px;
+    }
+    
+    .section-04-text{
+        font-size: 20px;
+    }
+
+    .section-04-details{
+        width: 80%;
+        color: #363636;
+    }
+
+    .guarantee-04-heading, .guarantee-08-heading{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .text-04-product, .text-08-product{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .money-back-text{
+        width: 100%;
+    }
+
+    .img-04, .img-08{
+        width: 100%;
+    }
+
+    .money-back-img{
+        bottom:200px;
+        left:170px;
+    }
+
+    .text-04-risk, .text-08-risk{
+        width: 100%;
+    }
+    
+    .symbol-beige{
+        display: none;
+    }
+    
+    .section-05-content{
+        width: 90%;
+    }
+    
+    .section-05-heading>h2{
+        font-size: 30px;
+    }
+    
+    .section-05-heading>p{
+        font-size: 15px;
+    }
+
+    .section-05-why{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .why-left, .why-right{
+        width: 100%;
+    }
+    
+    .left, .right{
+        align-items: flex-start;
+        text-align: start;
+        width: 100%;
+    }
+    
+    .left>p, .right>p{
+        font-size: 18px;
+    }
+    
+    .left{
+        flex-direction: row-reverse;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .right{
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+    }
+    
+    .mark{
+        width:20px;
+        height: 20px;
+    }
+    
+    .img-product{
+        width:200px;
+        height: auto;
+        margin:5px;
+    }
+    
+    .section-06-heading>h2{
+        font-size: 25px;
+    }
+
+    .section-06-cards{
+        width:80%;
+        justify-content: center;
+        grid-template-columns: repeat(1,minmax(150px,1fr));
+    }
+    
+    .section-06-card>h6{
+        font-size: 18px;
+    }
+
+    .section-06-card>p{
+        font-size: 13px;
+    }
+
+    .section-07-text{
+        font-size: 23px;
+    }
+    
+    .section-10>h2{
+        font-size: 22px;
+    }
+    
+    .faq{
+        width: 90%;
+    }
+    
+    .accordion-link{
+        font-size: 15px;
+    }
+
+    .answer>p{
+        width: 88%;
+        font-size: 13px;
+    }
+
+    .footer-ul{
+        width:80%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-support{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-link{
+        margin: 15px;
+    }
+
+    .footer-text{
+        width:80%;
+    }
+
+    .footer-last-p{
+        width:60%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .hero{
+        height: 400px;
+        background-image: url('/assets/hero-img.png');
+        background-size: cover;
+        background-position:60%;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .hero-text{
+        width: 80%;
+    } 
+    
+    .hero-text>h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    .hero-text>h3{
+        font-size: 18px;
+    }
+
+    .section-01-text{
+        width: 90%;
+    }
+    
+    .section-01-text>h2{
+        font-size: 22px;
+    }
+    
+    .section-01-text>p{
+        font-size: 13px;
+    }
+
+    .section-01-buy, 
+    .section-04-buy, 
+    .section-07-buy, 
+    .section-09-buy{
+        width: 70%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+    }
+
+    .purchase-card, .subscribe-card{
+        width:70%;
+    }
+
+    .guarantee{
+        align-items: center;
+    }
+
+    .guarantee-img{
+        width: 30px;
+        margin-right: 0;
+    }
+
+    .guarantee-text{
+        font-size: 14px;
+    }
+
+    .section-02{
+        height: 200px;
+    }
+    
+    .section-02-text>h2{
+        font-size:23px;
+    }
+    
+    .powerful-results{
+        font-size: 25px;
+    }
+    
+    .section-arrow{
+        width: 50px;
+        height: 50px;
+    }
+
+    .results-cards{
+        width: 80%;
+        justify-content: center;
+        grid-template-columns: repeat(1,minmax(200px,auto));
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 13px;
+    }
+
+    .main-result{
+        font-size: 15px;
+    }
+    
+    .buy-btn-container{
+        width:60%;
+    }
+    
+    .section-02-guarantee, .section-06-guarantee{
+        width: 80%;
+    }
+
+    .guarantee-text{
+        font-size: 13px;
+    }
+    
+    .review-cards{
+        width: 80%;
+        grid-template-columns: repeat(1,minmax(150px,auto));
+    }
+    
+    .review-text{
+        font-size: 15px;
+    }
+
+    .section-03-text{
+        width: 80%;
+    }
+    
+    .section-03-text>h2{
+        font-size: 25px;
+    }
+    
+    .section-03-text>h4{
+        font-size: 15px;
+    }
+
+    .section-03-content{
+        width: 70%;
+    }
+    
+    .section-03-cards{
+        width:100%;
+    }
+
+    .section-03-card{
+        flex-direction: column-reverse;
+    }
+    
+    .card-03-text{
+        width:100%;
+    }
+    
+    .card-03-text>h2{
+        font-size: 22px;
+    }
+
+    .card-03-text>p, .card-03-list-el{
+        font-size: 13px;
+    }
+    
+    .card-03-img-container{
+        width: 100%;
+    }
+    
+    .section-04-text{
+        font-size: 22px;
+    }
+
+    .section-04-details{
+        width: 80%;
+        color: #363636;
+    }
+
+    .guarantee-04-heading, .guarantee-08-heading{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .text-04-product, .text-08-product{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .money-back-text{
+        width: 100%;
+    }
+
+    .img-04, .img-08{
+        width: 100%;
+    }
+
+    .money-back-img{
+        bottom:200px;
+        left:240px;
+    }
+
+    .text-04-risk, .text-08-risk{
+        width: 100%;
+    }
+    
+    .symbol-beige{
+        display: none;
+    }
+
+    .section-05-content{
+        width: 90%;
+    }
+    
+    .section-05-heading>h2{
+        font-size: 32px;
+    }
+    
+    .section-05-heading>p{
+        font-size: 15px;
+    }
+
+    .section-05-why{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .why-left, .why-right{
+        width: 100%;
+    }
+    
+    .left, .right{
+        align-items: flex-start;
+        text-align: start;
+        width: 100%;
+    }
+    
+    .left>p, .right>p{
+        font-size: 18px;
+    }
+    
+    .left{
+        flex-direction: row-reverse;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .right{
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+    }
+    
+    .mark{
+        width:20px;
+        height: 20px;
+    }
+    
+    .img-product{
+        width:200px;
+        height: auto;
+        margin:5px;
+    }
+
+    .section-06-heading>h2{
+        font-size: 28px;
+    }
+
+    .section-06-cards{
+        width:60%;
+        justify-content: center;
+        grid-template-columns: repeat(1,minmax(150px,1fr));
+    }
+    
+    .section-06-card>h6{
+        font-size: 20px;
+    }
+
+    .section-06-card>p{
+        font-size: 15px;
+    }
+
+    .section-07-text{
+        font-size: 25px;
+    }
+
+    .section-10>h2{
+        font-size: 25px;
+    }
+    
+    .faq{
+        width: 90%;
+    }
+    
+    .accordion-link{
+        font-size: 15px;
+    }
+
+    .answer>p{
+        width: 93%;
+        font-size: 13px;
+    }
+
+    .footer-ul{
+        width:80%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-support{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-link{
+        margin: 15px;
+    }
+
+    .footer-text{
+        width:80%;
+    }
+
+    .footer-last-p{
+        width:60%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .hero{
+        height: 400px;
+        background-image: url('/assets/hero-img.png');
+        background-size: cover;
+        background-position:60%;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .hero-text{
+        width: 70%;
+    } 
+    
+    .hero-text>h1{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    .hero-text>h3{
+        font-size: 20px;
+    }
+
+    .section-01-text{
+        width: 80%;
+    }
+    
+    .section-01-text>h2{
+        font-size: 25px;
+    }
+    
+    .section-01-text>p{
+        font-size: 15px;
+    }
+
+    .section-01-buy, 
+    .section-04-buy, 
+    .section-07-buy, 
+    .section-09-buy{
+        width: 80%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+    }
+
+    .purchase-card, .subscribe-card{
+        width:50%;
+    }
+
+    .guarantee{
+        align-items: center;
+    }
+
+    .guarantee-img{
+        width: 30px;
+        margin-right: 0;
+    }
+
+    .guarantee-text{
+        font-size: 14px;
+    }
+
+    .section-02{
+        height: 230px;
+    }
+    
+    .section-02-text>h2{
+        font-size:27px;
+    }
+    
+    .powerful-results{
+        font-size: 33px;
+    }
+    
+    .results-cards{
+        width: 90%;
+        justify-content: center;
+        grid-template-columns: repeat(2,minmax(200px,auto));
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 13px;
+    }
+
+    .main-result{
+        font-size: 15px;
+    }
+    
+    .buy-btn-container{
+        width:60%;
+    }
+
+    .guarantee-text{
+        font-size: 13px;
+    }
+    
+    .review-cards{
+        width: 90%;
+        grid-template-columns: repeat(2,minmax(150px,auto));
+    }
+    
+    .review-text{
+        font-size: 15px;
+    }
+
+    .section-03-text{
+        width: 70%;
+    }
+    
+    .section-03-text>h2{
+        font-size: 28px;
+    }
+    
+    .section-03-text>h4{
+        font-size: 18px;
+    }
+
+    .section-03-content{
+        width: 70%;
+    }
+    
+    .section-03-cards{
+        width:100%;
+    }
+
+    .section-03-card{
+        flex-direction: column-reverse;
+    }
+    
+    .card-03-text{
+        width:100%;
+    }
+    
+    .card-03-text>h2{
+        font-size: 25px;
+    }
+
+    .card-03-text>p, .card-03-list-el{
+        font-size: 15px;
+    }
+    
+    .card-03-img-container{
+        width: 100%;
+    }
+
+    .section-04-text{
+        font-size: 25px;
+    }
+
+    .section-04-details{
+        width: 80%;
+        color: #363636;
+    }
+
+    .guarantee-04-heading, .guarantee-08-heading{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text-04-product, .text-08-product{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .money-back-text{
+        width: 100%;
+    }
+
+    .img-04, .img-08{
+        width: 100%;
+    }
+
+    .money-back-img{
+        bottom:200px;
+        left:300px;
+    }
+
+    .text-04-risk, .text-08-risk{
+        width: 100%;
+    }
+
+    .symbol-beige{
+        display: none;
+    }
+
+    .section-05-content{
+        width: 90%;
+    }
+    
+    .section-05-heading>h2{
+        font-size: 35px;
+    }
+    
+    .section-05-heading>p{
+        font-size: 18px;
+    }
+
+    .section-06-heading>h2{
+        font-size: 28px;
+    }
+
+    .section-06-cards{
+        width:50%;
+        justify-content: center;
+        grid-template-columns: repeat(1,minmax(150px,1fr));
+    }
+    
+    .section-06-card>h6{
+        font-size: 20px;
+    }
+
+    .section-06-card>p{
+        font-size: 15px;
+    }
+
+    .section-07-text{
+        font-size: 28px;
+    }
+
+    .section-10>h2{
+        font-size: 28px;
+    }
+    
+    .faq{
+        width: 80%;
+    }
+    
+    .accordion-link{
+        font-size: 18px;
+    }
+
+    .answer>p{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .footer-ul{
+        width:90%;
+    }
+
+    .footer-support{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-link{
+        margin: 15px;
+    }
+
+    .footer-text{
+        width:80%;
+    }
+
+    .footer-last-p{
+        width:60%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .hero{
+        height: 500px;
+        background-image: url('/assets/hero-img.png');
+        background-size: cover;
+        background-position:60%;
+    }
+
+    .hero-img{
+        display: none;
+    }
+   
+    .hero-text{
+        width: 70%;
+    } 
+    
+    .hero-text>h1{
+        font-size: 45px;
+        line-height: 58px;
+    }
+    
+    .hero-text>h3{
+        font-size: 25px;
+    }
+
+    .section-01-text{
+        width: 70%;
+    }
+    
+    .section-01-text>h2{
+        font-size: 28px;
+    }
+    
+    .section-01-text>p{
+        font-size: 16px;
+    }
+
+    .section-01-buy, 
+    .section-04-buy, 
+    .section-07-buy, 
+    .section-09-buy{
+        width: 60%;
+    }
+
+    .purchase-card, .subscribe-card{
+        width:50%;
+    }
+
+    .guarantee{
+        align-items: center;
+    }
+
+    .guarantee-img{
+        width: 30px;
+        margin-right: 0;
+    }
+
+    .guarantee-text{
+        font-size: 14px;
+    }
+
+    .section-02{
+        height: 250px;
+    }
+    
+    .section-02-text>h2{
+        font-size:30px;
+    }
+    
+    .powerful-results{
+        font-size: 38px;
+    }
+
+    .results-cards{
+        width: 70%;
+        justify-content: center;
+        grid-template-columns: repeat(2,minmax(200px,auto));
+    }
+
+    .card-title{
+        font-size: 20px;
+    }
+
+    .card-text{
+        font-size: 15px;
+    }
+
+    .main-result{
+        font-size: 16px;
+    }
+    
+    .buy-btn-container{
+        width:60%;
+    }
+
+    .guarantee-text{
+        font-size: 15px;
+    }
+    
+    .review-cards{
+        width: 70%;
+        grid-template-columns: repeat(2,minmax(150px,auto));
+    }
+    
+    .review-text{
+        font-size: 15px;
+    }
+
+    .section-03-text{
+        width: 70%;
+    }
+    
+    .section-03-text>h2{
+        font-size: 30px;
+    }
+    
+    .section-03-text>h4{
+        font-size: 20px;
+    }
+
+    .section-03-content{
+        width: 60%;
+    }
+    
+    .section-03-cards{
+        width:100%;
+    }
+
+    .section-03-card{
+        flex-direction: column-reverse;
+    }
+    
+    .card-03-text{
+        width:100%;
+    }
+    
+    .card-03-text>h2{
+        font-size: 25px;
+    }
+
+    .card-03-text>p, .card-03-list-el{
+        font-size: 15px;
+    }
+    
+    .card-03-img-container{
+        width: 100%;
+    }
+
+    .section-04-details{
+        width: 80%;
+        color: #363636;
+    }
+
+    .guarantee-04-heading, .guarantee-08-heading{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text-04-product, .text-08-product{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .money-back-text{
+        width: 100%;
+    }
+
+    .img-04, .img-08{
+        width: 100%;
+    }
+
+    .money-back-img{
+        bottom:200px;
+        left:350px;
+    }
+
+    .text-04-risk, .text-08-risk{
+        width: 100%;
+    }
+
+    .symbol-beige{
+        display: none;
+    }
+
+    .section-05-content{
+        width: 90%;
+    }
+    
+    .section-05-heading>h2{
+        font-size: 38px;
+    }
+    
+    .section-05-heading>p{
+        font-size: 20px;
+    }
+
+    .section-06-heading>h2{
+        font-size: 30px;
+    }
+
+    .section-06-cards{
+        width:80%;
+        justify-content: center;
+        grid-template-columns: repeat(2,minmax(150px,1fr));
+    }
+    
+    .section-06-card>h6{
+        font-size: 20px;
+    }
+
+    .section-06-card>p{
+        font-size: 15px;
+    }
+
+    .section-07-text{
+        font-size: 30px;
+    }
+
+    .section-10>h2{
+        font-size: 30px;
+    }
+    
+    .faq{
+        width: 80%;
+    }
+    
+    .accordion-link{
+        font-size: 18px;
+    }
+
+    .answer>p{
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .footer-support{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-link{
+        margin: 15px;
+    }
+
+    .footer-text{
+        width:80%;
+    }
+
+    .footer-last-p{
+        width:60%;
+    }
+}
