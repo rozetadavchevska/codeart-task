@@ -120,6 +120,7 @@ body{
 }
 
 .purchase-header>h2, .subscribe-header>h2{
+    white-space: nowrap;
     margin: 0;
     padding: 15px;
     font-weight: 800;
@@ -828,7 +829,7 @@ body{
     display:grid;
     justify-content: space-between;
     align-items: center;
-    grid-template-columns: repeat(2,minmax(150px,1fr));
+    grid-template-columns: repeat(2,minmax(150px,auto));
     gap: 25px;
     margin-bottom: 20px;
 }
